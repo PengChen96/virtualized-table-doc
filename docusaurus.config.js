@@ -12,6 +12,7 @@ module.exports = {
   favicon: 'img/logo.png',
   organizationName: 'PengChen96', // Usually your GitHub org/user name.
   projectName: 'virtualized-table-doc', // Usually your repo name.
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     navbar: {
       title: 'virtualized-table',
@@ -82,6 +83,13 @@ module.exports = {
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+    },
+    liveCodeBlock: {
+      /**
+       * The position of the live playground, above or under the editor
+       * Possible values: "top" | "bottom"
+       */
+      playgroundPosition: 'top',
     },
   },
   presets: [
