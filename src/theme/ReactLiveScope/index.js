@@ -6,11 +6,16 @@
  */
 
 import React from 'react';
+import {VTablePro} from 'virtualized-table';
+import {generateColumns, generateData} from "./utils";
 
 // Add react-live imports you need here
 const ReactLiveScope = {
   React,
   ...React,
+  VTablePro,
+  generateColumns,
+  generateData
 };
 
 export default ReactLiveScope;
