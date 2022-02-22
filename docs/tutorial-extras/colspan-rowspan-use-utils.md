@@ -4,6 +4,7 @@ sidebar_position: 7
 
 # 行/列合并utils
 ```jsx live
+// import {VTablePro, utils} from 'virtualized-table';
 function MyComponent() {
 
   const colNum = 10;
@@ -21,7 +22,7 @@ function MyComponent() {
       { s: {c: 5, r: 4}, e: {c: 6, r: 4} },
       { s: {c: 1, r: 6}, e: {c: 6, r: 7} },
     ];
-    const mergesObj = VTablePro.utils.formatToCellsSpan(mergesArr);
+    const mergesObj = utils().formatToCellsSpan(mergesArr);
     return dynamicColumns.map((column, colIndex) => {
       column.render = (value, row, rowIndex, realRowIndex) => {
         const obj = {
