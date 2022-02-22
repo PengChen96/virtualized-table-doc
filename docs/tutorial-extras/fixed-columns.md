@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 ---
 
-# 基础用法
+# 固定列
 ```jsx live
 function MyComponent() {
 
@@ -16,6 +16,8 @@ function MyComponent() {
         bordered
         columns={columns}
         dataSource={dataSource}
+        fixedLeftColumnCount={1}
+        fixedRightColumnCount={1}
       />
     </>
   );

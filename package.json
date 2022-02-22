@@ -22,9 +22,13 @@
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
     "file-loader": "^6.2.0",
+    "immutability-helper": "^3.1.1",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
+    "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2",
     "react-dom": "^17.0.1",
+    "react-resizable": "^3.0.4",
     "url-loader": "^4.1.1",
     "virtualized-table": "^0.1.3"
   },

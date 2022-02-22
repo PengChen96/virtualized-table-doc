@@ -1,0 +1,8 @@
+
+.draggable-body-row + .drop-over-downward {
+  border-bottom: 2px dashed #ff8040;
+}
+
+.draggable-body-row + .drop-over-upward {
+  border-top: 2px dashed #ff8040;
+}

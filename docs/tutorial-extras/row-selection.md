@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 ---
 
 # 可选择
@@ -32,6 +32,7 @@ function MyComponent() {
   return (
     <>
       <VTablePro
+        bordered
         columns={columns}
         dataSource={dataSource}
         rowKey={(item) => `${item.rowKey}`}

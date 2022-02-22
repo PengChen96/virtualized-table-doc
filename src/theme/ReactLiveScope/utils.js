@@ -27,7 +27,7 @@ export const generateColumns = (
       width: 150,
       ...extraColumnObj(i),
       render(value) {
-        return <span>{value}</span>;
+        return value;
       }
     });
   }

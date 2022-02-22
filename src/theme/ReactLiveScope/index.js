@@ -8,6 +8,12 @@
 import React from 'react';
 import {VTablePro} from 'virtualized-table';
 import {generateColumns, generateData} from "./utils";
+import {ResizableCell} from './components/ResizableCell'
+import './components/ResizableCell/column-resize.css'
+import {DndProvider} from 'react-dnd';
+import {DraggableBodyRow} from './components/DragableBodyRow';
+import Backend from 'react-dnd-html5-backend/lib/index';
+import update from 'immutability-helper';
 
 // Add react-live imports you need here
 const ReactLiveScope = {
@@ -15,7 +21,14 @@ const ReactLiveScope = {
   ...React,
   VTablePro,
   generateColumns,
-  generateData
+  generateData,
+  // 可伸缩列
+  ResizableCell,
+  // 可拖拽行
+  DraggableBodyRow,
+  DndProvider,
+  Backend,
+  update,
 };
 
 export default ReactLiveScope;
