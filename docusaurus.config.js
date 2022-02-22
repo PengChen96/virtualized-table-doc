@@ -27,7 +27,7 @@ module.exports = {
           position: 'left',
           label: '文档',
         },
-        {to: '/blog', label: '博客', position: 'left'},
+        // {to: '/blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/PengChen96/virtualized-table',
           label: 'GitHub',
@@ -39,41 +39,29 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '学习',
           items: [
             {
-              label: 'Tutorial',
+              label: '教程',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '社群',
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/virtualized-table',
             },
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/PengChen96/virtualized-table',
             },
           ],
         },
